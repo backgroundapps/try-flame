@@ -45,6 +45,7 @@ tasks:
       } fi
       flutter build -v linux
       flutter build -v web
+      flutter pub add --dev flutter_lints
 
       ### If you want to build for android, consider uncommenting the below lines
       # flutter build -v bundle
